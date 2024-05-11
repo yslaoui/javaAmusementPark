@@ -29,6 +29,10 @@ public class Person {
         return this.weight;
     }
 
+    public String toString() {
+        return this.name;
+    }
+
 
 
     public boolean equals(Object compared) {
